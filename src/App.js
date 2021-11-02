@@ -14,7 +14,35 @@ Amplify.configure(awsExports);
 const App = () => {
   return (<div>
 
-  </div>
+      <Router>
+      <Switch>
+      <Route exact path="/">
+        Home
+      </Route>
+      <Route exact path="/categorias">
+        Categorias
+      </Route>
+      <Route exact path="/productos">
+       Productos
+      </Route>
+      <Route exact path="/producto:id">
+        Categorias
+      </Route>
+      <Route exact path="/about">
+        About
+      </Route>
+      <Route exact path="/about">
+        About
+      </Route>
+      
+
+     </Switch>
+      </Router>
+      
+  
+  
+  
+       </div>
     // <Router>
     //   <Header />
     //   <Switch>

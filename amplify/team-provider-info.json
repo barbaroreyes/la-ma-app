@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lamaapp-dev-145808-authRole",
+      "UnauthRoleArn": "arn:aws:iam::217175807922:role/amplify-lamaapp-dev-145808-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::217175807922:role/amplify-lamaapp-dev-145808-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lamaapp-dev-145808-deployment",
+      "UnauthRoleName": "amplify-lamaapp-dev-145808-unauthRole",
+      "StackName": "amplify-lamaapp-dev-145808",
+      "StackId": "arn:aws:cloudformation:us-east-1:217175807922:stack/amplify-lamaapp-dev-145808/36287c20-3c17-11ec-9048-0a0b212baf21",
+      "AmplifyAppId": "d1utv9ycsrrons"
+    },
+    "categories": {
+      "auth": {
+        "lamaapp1d54fa36": {}
+      },
+      "function": {
+        "processPayment": {
+          "deploymentBucketName": "amplify-lamaapp-dev-145808-deployment",
+          "s3Key": "amplify-builds/processPayment-59766a4e683135636361-build.zip"
+        },
+        "createOrder": {
+          "deploymentBucketName": "amplify-lamaapp-dev-145808-deployment",
+          "s3Key": "amplify-builds/createOrder-596b75375a6a61506f4f-build.zip"
+        }
+      }
+    }
+  }
+}

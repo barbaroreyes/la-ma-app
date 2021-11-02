@@ -2,9 +2,9 @@ const { v4: uuidv4 } = require("uuid");
 const AWS = require("aws-sdk");
 const documentClient = new AWS.DynamoDB.DocumentClient();
 
-const ORDER_TABLE = "Order-vgsctwqhxbawpasjutaoyhoy4q-dev";
+const ORDER_TABLE = "Order-355pkjxwcfarzc7kpccq3r676m-dev";
 const ORDER_TYPE = "Order";
-const JOLLA_ORDER_TABLE = "JollaOrder-vgsctwqhxbawpasjutaoyhoy4q-dev";
+const JOLLA_ORDER_TABLE = "JollaOrder-355pkjxwcfarzc7kpccq3r676m-dev";
 const JOLLA_ORDER_TYPE = "JollaOrder";
 
 const createOrder = async (payload) => {

@@ -18,11 +18,11 @@
       "function": {
         "processPayment": {
           "deploymentBucketName": "amplify-lamaapp-dev-145808-deployment",
-          "s3Key": "amplify-builds/processPayment-59766a4e683135636361-build.zip"
+          "s3Key": "amplify-builds/processPayment-4a334e777a6f5257554e-build.zip"
         },
         "createOrder": {
           "deploymentBucketName": "amplify-lamaapp-dev-145808-deployment",
-          "s3Key": "amplify-builds/createOrder-596b75375a6a61506f4f-build.zip"
+          "s3Key": "amplify-builds/createOrder-4b3337417270524a4169-build.zip"
         }
       }
     }
